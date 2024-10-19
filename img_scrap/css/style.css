@@ -1,0 +1,121 @@
+
+body 
+{
+	background: url("../img/background.jpg") repeat-x;
+	background-color: #f3f3f3;
+	width:100%;
+}
+#main
+{
+	 border	: 1px solid gray;
+	 margin	: 30px auto;
+	 width	: 90%;
+	 height	: 650px;
+	 background-color	: white;
+}
+
+#grab_header
+{
+	height			: 40px;
+	padding-top		: 10px;
+	padding-left	: 50px;
+	background-color:#4e7596;
+	color			: white;
+}
+
+#grab_header #grab_url
+{
+	margin-left	: 20px;
+	width		: 300px;
+	height		: 25px;
+}
+
+#grab_header #grabbtn
+{
+	margin-left	: 20px;
+	height		: 30px;
+}
+
+#grab_header #resetbtn
+{
+	margin-left	: 20px;
+	height		: 30px;
+}
+
+#scraping_img_shower
+{
+	height	: 300px;
+	background-color: transparent;
+    overflow-y: auto;
+    text-align: center;
+    height	: 300px;
+    margin	: 0px auto;
+}
+
+.overlay_image_class img
+{
+	height			: auto !important;
+	width			: auto !important;
+	max-height		: 150px;
+	max-width		: 150px;
+}
+
+#scraping_img_placedrag
+{
+    background:url("../img/drag_bg.png")  center center transparent no-repeat;
+    height	: 300px;
+    border-top	: 2px solid #a5b8ca;
+/*   margin-top: -3px; */
+    overflow-x: auto;
+	margin:0px auto;
+}
+
+#htmlcontents
+{
+	width	: 0px;
+	height	: 0px;
+	display	: none;
+}
+
+.overlay_image_class
+{
+	float			: left;
+	height			: 150px;
+	width			: 150px;
+	border-style	: solid;
+	border-width	: 0 1px 1px 0;
+	border-color	: #CCCCCC;
+	text-align		: center;
+}
+
+#img_descr {position:absolute; display:none; width:135px; height:25px;}
+
+#scrap_upload_btn
+{
+	display			: none;
+	background		: url("../img/upload_btn.png");
+	height			: 56px;
+	width			: 57px;
+	z-index			: 666666666px;
+	position		: absolute;
+	cursor			: pointer;
+	top				: 400px;
+}
+
+#loading_progress
+{
+	float : right;
+	margin-right: 20px;
+    margin-top: 10px;
+    display	:none;
+}
+
+#btn_tryagain
+{
+	float : right;
+	margin-right: 20px;
+    margin-top: 10px;
+    display	:none;
+}
+
+#btn_tryagain a {color : white; text-decoration: none;}

@@ -1,0 +1,335 @@
+
+#main 
+{
+	width	: 950px !important;
+	margin	: 0px auto;
+	height	: auto;
+}
+
+#main .align
+{
+	float	: left;
+	width	: 465px;//450px;
+	height	: 450px;
+	padding : 2px;
+	border	: 1px solid red;
+	text-align : center;
+}
+
+#main .align span {float: left; text-align : left;}
+
+.layout1 .sub1
+{
+	float	: left;
+	width	: 225px;
+	height	: 250px;
+	padding-left	: 5px;
+	margin-bottom	: 10px;	
+}
+.layout1 .sub2
+{
+	float	: left;
+	width	: 235px;
+	height	: 250px;
+	margin-bottom	: 10px;
+}
+
+.layout1 .sub3
+{
+	float	: left;
+	width	: 150px;
+	height	: 200px;
+	padding-right	: 5px;
+	margin-bottom	: 10px;
+}
+.layout1 .sub3 img {width : 140px;}
+.layout1 .sub4
+{
+	float	: left;
+	width	: 150px;
+	height	: 200px;
+	padding-right	: 5px;
+	margin-bottom	: 10px;
+}
+.layout1 .sub4 img {width : 140px;}
+.layout1 .sub5
+{
+	float	: left;
+	width	: 150px;
+	height	: 200px;
+	padding-right	: 5px;
+	margin-bottom	: 10px;
+}
+.layout1 .sub5 img {width : 140px;}
+
+.layout2 .split1
+{
+	float	: left;
+	width	: 225px;
+	height	: 450px;
+}
+
+.layout2 .split1 .sub1
+{
+	width	: 225px;
+	height	: 150px;
+	border	: 1px solid red;
+}
+
+.layout2 .split1 .sub2
+{
+	width	: 225px;
+	height	: 200px;
+	border	: 1px solid red;
+}
+
+.layout2 .split1 .sub3
+{
+	width	: 225px;
+	height	: 100px;
+	border	: 1px solid red;
+}
+
+.layout2 .split2
+{
+	width	: 225px;
+	float 	: left;
+	height	: 450px;
+}
+
+.layout2 .split2 .sub3
+{
+	width	: 225px;
+	height	: 225px;
+	border	: 1px solid red;
+}
+
+.layout2 .split2 .sub4
+{
+	width	: 225px;
+	height	: 225px;
+	border	: 1px solid red;
+}
+
+.layout3 .sub1
+{
+	float	: left;
+	width	: 300px;
+	height	: 225px;
+	border	: 1px solid red;
+}
+
+.layout3 .sub2
+{
+	width	: 150px;
+	height	: 225px;
+	border	: 1px solid red;
+}
+
+.layout3 .sub3
+{
+	width	: 150px;
+	height	: 225px;
+	border	: 1px solid red;
+}
+
+.layout3 .sub4
+{
+	width	: 300px;
+	height	: 225px;
+	border	: 1px solid red;
+}
+
+.layout4 .split1
+{
+	float	: left;
+	width	: 450px;
+	height	: 150px;
+	border	: 1px solid red;
+}
+
+.layout4 .split2
+{
+	float	: left;
+	width	: 290px;
+	height	: 300px;
+	border	: 1px solid red;
+}
+
+.layout4 .split3
+{
+	float	: left;
+	width	: 170px;
+	height	: 300px;
+	border	: 1px solid red;
+}
+
+.layout4 .sub1
+{
+	float	: left;
+	width	: 225px;
+	height	: 150px;
+}
+
+.layout4 .sub2
+{
+	float	: left;
+	width	: 225px;
+	height	: 150px;
+}
+
+.layout4 .sub3
+{
+	width	: 290px;
+	height	: 150px;
+}
+
+.layout4 .sub4
+{
+	width	: 290px;
+	height	: 150px;
+}
+
+.layout4 .sub5
+{
+	width	: 170px;
+	height	: 300px;
+}
+
+.layout5 .sub1
+{
+	float	: left;
+	width	: 450px;
+	height	: 270px;
+	border	: 1px solid red;
+}
+
+.layout5 .sub2
+{
+	float	: left;
+	width	: 225px;
+	height	: 180px;
+}
+
+.layout5 .sub3
+{
+	float	: left;
+	width	: 225px;
+	height	: 180px;
+}
+
+.layout6 .split1
+{
+	float	: left;
+	width	: 240px;
+	height	: 280px;
+}
+.layout6 .sub1
+{
+	width	: 240px;
+	height	: 150px;
+}
+.layout6 .sub2
+{
+	width	: 240px;
+	height	: 150px;
+}
+.layout6 .sub3
+{
+	float	: left;
+	width	: 210px;
+	height	: 300px;
+}
+
+.layout6 .sub4
+{
+	float	: left;
+	height	: 150px;
+	width	: 150px;
+}
+
+.layout6 .sub5
+{
+	float	: left;
+	height	: 150px;
+	width	: 300px;
+}
+
+.layout7 .sub1
+{
+	float	: left;
+	width	: 450px;
+	height	: 150px;
+}
+
+.layout7 .sub2
+{
+	float	: left;
+	width	: 225px;
+	height	: 150px;
+}
+
+.layout7 .sub3
+{
+	float	: left;
+	width	: 225px;
+	height	: 150px;
+}
+
+.layout7 .sub4
+{
+	float	: left;
+	width	: 225px;
+	height	: 150px;
+}
+
+.layout7 .sub5
+{
+	float	: left;
+	width	: 225px;
+	height	: 150px;
+}
+
+.layout8 .split1
+{
+	float	: left;
+	width	: 225px;
+	height	: 450px;
+}
+
+.layout8 .split2
+{
+	float	: left;
+	width	: 225px;
+	height	: 450px;
+}
+
+.layout8 .sub1
+{
+	width	: 225px;
+	height	: 225px;
+}
+
+.layout8 .sub2
+{
+	width	: 225px;
+	height	: 225px;
+}
+
+.layout8 .sub3
+{
+	width	: 225px;
+	height	: 110px;
+}
+
+.layout8 .sub4
+{
+	width	: 225px;
+	height	: 230px;
+}
+
+.layout8 .sub5
+{
+	width	: 225px;
+	height	: 110px;
+}
